@@ -31,4 +31,4 @@ if __name__ == "__main__":
     parse_input("class B { int f(x) { a = 3 4 5; } }")
 
     print("\n=== Entrada con error 2 ===")
-    parse_input("class C { int f(x) { a = 3 + 5; } }")
+    parse_input("class C { int f(x) { a = 3 + 5;}  }")
